@@ -1,0 +1,22 @@
+{
+  "name": "@gospry/safe",
+  "version": "0.1.0",
+  "description": "Wrap microservice in safe error handler",
+  "main": "./lib/index.js",
+  "author": {
+    "name": "Jonathan Brumley",
+    "email": "cayasso@gmail.com"
+  },
+  "scripts": {
+    "build": "make build"
+  },
+  "repository": "gospry/safe",
+  "dependencies": {
+    "micro": "^6.0.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.9.0",
+    "babel-plugin-transform-async-to-generator": "6.8.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "6.11.5"
+  }
+}
