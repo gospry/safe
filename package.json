@@ -8,10 +8,12 @@
     "email": "cayasso@gmail.com"
   },
   "scripts": {
-    "build": "make build"
+    "build": "make build",
+    "prepublish": "npm run build"
   },
   "repository": "gospry/safe",
   "dependencies": {
+    "debug": "^2.2.0",
     "micro": "^6.0.1"
   },
   "devDependencies": {
